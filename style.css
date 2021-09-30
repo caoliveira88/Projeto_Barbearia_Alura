@@ -1,0 +1,64 @@
+#banner {
+	width:100%;
+	border: 4px solid #222A0A;
+
+}
+
+.principal{
+	padding: 30px;
+}
+
+.titulo-principal {
+	padding-left: 30px;
+	font-family: Young Heart;
+	font-size: 50px;
+	color: #222A0A;
+	text-align: center;
+	font-weight: 300;
+}
+
+.titulo-centralizado {
+	text-align: center;
+	font-family: Young Heart;
+	font-size: 40px;
+	font-weight: 300;
+	color: #222A0A;
+}
+
+p {
+	text-align: center;
+	font-family: kaufmann BT;
+	font-size: 25px;
+	color: #222A0A;
+}
+
+#missao {
+	font-size: 25px;
+	color: #222A0A
+}
+
+em strong {
+	color: #839d34;
+}
+
+.itens {
+	font-family: kaufmann BT;
+	font-size: 25px;
+}
+
+.beneficios {
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.imagembeneficios {
+	width: 50%;
+	border: 4px solid #222A0A;
+}
