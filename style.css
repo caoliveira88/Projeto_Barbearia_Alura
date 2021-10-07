@@ -1,64 +1,117 @@
-#banner {
-	width:100%;
-	border: 4px solid #222A0A;
-
+header {
+    background-color: #222A0A;
+    padding: 20px 0;
 }
 
-.principal{
-	padding: 30px;
+/*---------Menu de navegação----------*/
+.menu {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
-.titulo-principal {
-	padding-left: 30px;
-	font-family: Young Heart;
-	font-size: 50px;
-	color: #222A0A;
-	text-align: center;
-	font-weight: 300;
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
-.titulo-centralizado {
-	text-align: center;
-	font-family: Young Heart;
-	font-size: 40px;
-	font-weight: 300;
-	color: #222A0A;
+nav li {
+    display: inline;
+    margin-left: 15px;
 }
 
-p {
-	text-align: center;
-	font-family: kaufmann BT;
-	font-size: 25px;
-	color: #222A0A;
+nav a {
+    text-transform: uppercase;
+    color: #ffff;
+    text-decoration: none;
+    font-family: Young Heart;
+    font-size: 55px;
 }
 
-#missao {
-	font-size: 25px;
-	color: #222A0A
+nav a:hover {
+    text-decoration:underline;
 }
 
-em strong {
-	color: #839d34;
+/*---------Conteúdo Produtos----------*/
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
 
-.itens {
-	font-family: kaufmann BT;
-	font-size: 25px;
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border:solid 1px #839d34;
+    border-radius: 10px;
 }
 
-.beneficios {
-	background: #FFFFFF;
-	padding: 20px;
+.produtos li:hover {
+    border-color: #222A0A;
 }
 
-ul {
-	display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
+.produtos li:hover h2 {
+    font-size: 40px;
 }
 
-.imagembeneficios {
-	width: 50%;
-	border: 4px solid #222A0A;
+.produtos h2 {
+    font-family: Young Heart;
+    font-size: 35px;
+    color: #222A0A;
+}
+
+.produto-descricao {
+    font-family: kaufmann BT;
+    font-size: 30px;
+    color: #222A0A;
+}
+
+.produto-preco {
+    font-family: Young Heart;
+    font-size: 30px;
+    color: #222A0A;
+    margin: 10px 0 0;
+}
+
+/*---------Formulário----------*/
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display: block;
+    font-family: kaufmann BT;
+    font-size: 30px;
+    margin: 0 0 10px;
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px ;
+    width: 50%;
+}
+
+/*---------Conteúdo rodapé----------*/
+footer {
+    text-align: center;
+    background-color: #222A0A;
+    padding: 40px 0 ;
+}
+
+.copyright {
+    color: #ffff;
+    font-size: 13px;
+    margin-top: 20px;
 }
